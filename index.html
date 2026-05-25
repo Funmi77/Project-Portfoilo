@@ -1,175 +1,289 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-   <meta charset="UTF-8" />
+  <head>
+    <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Funmilayo is a Front-end engineer based in London."/>
+
+    <meta
+      name="description"
+      content="Funmilayo is a Front-end engineer based in London."
+    />
+
     <title>Front-end Developer - Funmilayo Fagbemi</title>
-     <link
+
+    <!-- Bootstrap CSS -->
+    <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
       crossorigin="anonymous"
     />
+
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
+
     <link
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@500;700&display=swap"
       rel="stylesheet"
     />
+
+    <!-- CSS -->
     <link rel="stylesheet" href="styles/portfolio.css" />
 
-
+    <!-- Bootstrap JS -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
       crossorigin="anonymous"
     ></script>
+
+    <!-- Font Awesome -->
     <script
       src="https://kit.fontawesome.com/ddc3ee268a.js"
       crossorigin="anonymous"
     ></script>
   </head>
+
   <body>
-  <div class="container"></div>
-  <nav class="d-flex justify-content-between">
-  <a href="/" title="Homepage">
-  <img src="images/logo.png" class="logo d-none d-md-block" alt="Funmilayo Logo" />
-  <img src="images/logo small.jpg" class="logo d-block d-md-none" alt="Funmilayo Logo" />
-  </a>
-  <ul>
-  <li class="active">
-  <a href="/" title="Homepage">Home</a>
- </li>
-  <li>
-   <a href="/about.html" title="About Funmilayo">About</a>
-  </li>
-  <li>
-    <a href="/work.html" title=" Funmilayo'sWork ">Work</a
-    </li>
-  <li>
-    <a href="/contact.html" title="Contact Funmilayo">Contact</a>
-  </li>
-  </ul>
-  </nav>
-  </div>
+    <div class="container">
+      <!-- NAVIGATION -->
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img
+            src="images/logo.png"
+            class="logo d-none d-md-block"
+            alt="Funmilayo Logo"
+          />
+
+          <img
+            src="images/logo small.jpg"
+            class="logo d-block d-md-none"
+            alt="Funmilayo Logo"
+          />
+        </a>
+
+        <ul>
+          <li class="active">
+            <a href="/" title="Homepage">Home</a>
+          </li>
+
+          <li>
+            <a href="/about.html" title="About Funmilayo">About</a>
+          </li>
+
+          <li>
+            <a href="/work.html" title="Funmilayo's Work">Work</a>
+          </li>
+
+          <li>
+            <a href="/contact.html" title="Contact Funmilayo">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- HERO -->
     <div class="hero">
       <p>👋 Hello, I'm</p>
+
       <h1>Funmilayo Fagbemi</h1>
+
       <h2 class="mb-5">Front-end developer based in London</h2>
+
       <div>
-        <a href="/contact.html" class="btn btn-branding" title="Contact me">Contact me</a>
+        <a href="/contact.html" class="btn btn-branding" title="Contact me">
+          Contact me
+        </a>
       </div>
     </div>
-    <p class="text-center m-5">
-      Check out some of my featured projects below
-    </p>
+
+    <p class="text-center m-5">Check out some of my featured projects below</p>
+
+    <!-- PROJECTS -->
     <div class="container">
+      <!-- PROJECT 1 -->
       <div class="row mb-5">
         <div class="col d-none d-lg-block">
           <img
             src="images/My Dream home Design Project.png"
             class="img-fluid"
-            alt="Dream home Design Preview"
+            alt="Dream Home Design Preview"
           />
-    <div class="col">  
-    <div class="project-description">
-   
-    <h2 class="mb-5">Dream Home Landing Page</h2>
-    <p class="mb-5 text-muted">This Dream House landing page was designed to showcase a modern and interactive user experience with dynamic JavaScript functionality and AI-generated architectural descriptions. 
-      The project integrates AI API functionality using Axios to create engaging user interaction and real-time content generation.</p>
-    <a href="/work.html" class="btn-btn-branding-outline">Learn more</a>
-  </div>
-  </div>
-  </div>
-   
-  <div class="row mb-5">
+        </div>
 
-    <div class="col">  
-    <div class="project-description">
-   
-    <h2 class="mb-5">React Weather App</h2>
-    <p class="mb-5 text-muted">This React Weather App was built to provide real-time weather updates and forecast information through API integration and dynamic user interaction. The project combines React components, responsive design, and modern development practices to create a fully functional and interactive weather application.</p>
-    <a href="/work.html" class="btn-btn-branding-outline">Learn more</a>
-  </div>
-  </div>
-  <div class="col d-none d-lg-block">
-    <img src="images/React Weather App Project.png" class="img-fluid" alt="React Weather project preview" />
+        <div class="col">
+          <div class="project-description">
+            <h2 class="mb-5">Dream Home Landing Page</h2>
+
+            <p class="mb-5 text-muted">
+              This Dream House landing page was designed to showcase a modern
+              and interactive user experience with dynamic JavaScript
+              functionality and AI-generated architectural descriptions. The
+              project integrates AI API functionality using Axios to create
+              engaging user interaction and real-time content generation.
+            </p>
+
+            <a href="/work.html" class="btn btn-branding-outline">
+              Learn more
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- PROJECT 2 -->
+      <div class="row mb-5">
+        <div class="col">
+          <div class="project-description">
+            <h2 class="mb-5">React Weather App</h2>
+
+            <p class="mb-5 text-muted">
+              This React Weather App was built to provide real-time weather
+              updates and forecast information through API integration and
+              dynamic user interaction. The project combines React components,
+              responsive design, and modern development practices to create a
+              fully functional and interactive weather application.
+            </p>
+
+            <a href="/work.html" class="btn btn-branding-outline">
+              Learn more
+            </a>
+          </div>
+        </div>
+
+        <div class="col d-none d-lg-block">
+          <img
+            src="images/React Weather App Project.png"
+            class="img-fluid"
+            alt="React Weather Project Preview"
+          />
+        </div>
+      </div>
+
+      <!-- PROJECT 3 -->
+      <div class="row mb-5">
+        <div class="col d-none d-lg-block">
+          <img
+            src="images/React Dictionary App Project.png"
+            class="img-fluid"
+            alt="React Dictionary App Preview"
+          />
+        </div>
+
+        <div class="col">
+          <div class="project-description">
+            <h2 class="mb-5">React Dictionary App</h2>
+
+            <p class="mb-5 text-muted">
+              This React Dictionary App was built to provide users with word
+              definitions, phonetics, synonyms, and related images through API
+              integration and dynamic React functionality. The project
+              incorporates modern React development practices, reusable
+              components, responsive design, and interactive features to create
+              a fully functional dictionary application.
+            </p>
+
+            <a href="/work.html" class="btn btn-branding-outline">
+              Learn more
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- PROJECT 4 -->
+      <div class="row mb-5">
+        <div class="col">
+          <div class="project-description">
+            <h2 class="mb-5">My Travel Guide to Lagos Project</h2>
+
+            <p class="mb-5 text-muted">
+              This Travel Guide to Lagos project was created to showcase the
+              vibrant culture, food, lifestyle, and popular attractions in Lagos
+              through an engaging and visually appealing website experience. The
+              project combines responsive web design, interactive layouts, and
+              modern front-end development techniques to provide users with an
+              informative and immersive guide to exploring Lagos.
+            </p>
+
+            <a href="/work.html" class="btn btn-branding-outline">
+              Learn more
+            </a>
+          </div>
+        </div>
+
+        <div class="col d-none d-lg-block">
+          <img
+            src="images/My Travel Guide to Lagos Project.png"
+            class="img-fluid"
+            alt="Travel Guide to Lagos Preview"
+          />
+        </div>
+      </div>
     </div>
-  </div>
-  <div class="row mb-5">
-    <div class="col d-none d-lg-block">
-    <img src="images/React Dictionary App Project.png" class="img-fluid" alt="React Dictionary App preview" />
-    </div>
-    <div class="col">  
-    <div class="project-description">
-   
-    <h2 class="mb-5">React Dictionary App</h2>
-    <p class="mb-5 text-muted">This React Dictionary App was built to provide users with word definitions, phonetics, synonyms, and related images through API integration and dynamic React functionality. The project incorporates modern React development practices, reusable components, responsive design, and interactive features to create a fully functional dictionary application.</p>
-    <a href="/work.html" class="btn-btn-branding-outline">Learn more</a>
-  </div>
-  </div>
-  </div>
 
-  <footer class="container">
-  <div class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex">
-  <div>
-  <div>
+    <!-- FOOTER -->
+    <footer class="container">
+      <div
+        class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+      >
+        <div>
+          <h3>Work Inquiry</h3>
 
-<h2 class="mb-5">My Travel Guide to Lagos Project</h2>
+          <p class="text-muted">
+            Let’s work together and I’ll help you by all my best
+          </p>
+        </div>
 
-<p class="mb-5 text-muted">
-  This Travel Guide to Lagos project was created to showcase the vibrant culture,
-  food, lifestyle, and popular attractions in Lagos through an engaging and
-  visually appealing website experience. The project combines responsive web
-  design, interactive layouts, and modern front-end development techniques to
-  provide users with an informative and immersive guide to exploring Lagos.
-</p>
+        <a
+          href="/contact.html"
+          class="btn btn-branding mt-3"
+          title="Contact Funmilayo"
+        >
+          Contact me
+        </a>
+      </div>
 
-<a href="/work.html" class="btn btn-branding-outline">
-  Learn more
-</a>
+      <div class="d-flex justify-content-center mb-5">
+        <a
+          href="mailto:Funmi.Fagbemi@outlook.com"
+          class="email-link"
+          title="Email Funmilayo"
+        >
+          Funmi.Fagbemi@outlook.com
+        </a>
+      </div>
 
-</div>
-</div>
-</div>
+      <!-- SOCIAL LINKS -->
+      <div class="social-links d-flex justify-content-center">
+        <a
+          href="https://www.instagram.com/funmi_fagbemi"
+          target="_blank"
+          title="Instagram Profile"
+        >
+          <i class="fab fa-instagram"></i>
+        </a>
 
-<footer class="container">
-  <div class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex">
-  <div>
-  <div>
+        <a
+          href="https://github.com/Funmi77"
+          target="_blank"
+          title="GitHub Profile"
+        >
+          <i class="fab fa-github"></i>
+        </a>
 
-  <h3>Work Inquiry</h3>
-  <p class="text-muted">Let’s work  together and i’ll help you by all my best</p>
-  </div>
-  </div>
-  <a href="/contact.html" class="btn btn-branding mt-3" title="Contact Funmilayo">Contact me</a>
-  </div>
-  <div class="d-flex justify-content-center mb-5">
-    <a href="mailto:Funmi.Fagbemi@outlook.com" class="email-link" title="Email Funmilayo">
-     Funmi.Fagbemi@outlook.com </a>
-     </div>
-     <div class="social-links d-flex justify-content-center">
-     <a href="https://www.instagram.com/funmi_fagbemi" 
-     target="_blank" title="Instagram Profile">
-     <i class="fab fa-instagram"></i>
-     </a>
-     <a href="https://www.github.com/funmi77" 
-     target="_blank" title="Github Profile">
-     <i class="fab fa-github"></i>
-     </a>
-     <a href="https://www.twitter.com/funmi" 
-     target="_blank" title="Twitter Profile">
-     <i class="fab fa-twitter"></i>
-     </a>
-     </div>
-     <p class="text-center mt-5">
-     ❤️ This project was coded by Funmilayo Fagbemi, and it is
-     <a href="https://github.com/Funmi77/Project-Portfoilo" target="_blank">
-      open-sourced
-       </a>
-     </p>
+        <a
+          href="https://www.linkedin.com/in/funmilayo-fagbemi"
+          target="_blank"
+          title="LinkedIn Profile"
+        >
+          <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+      </div>
+
+      <p class="text-center mt-5">
+        ❤️ This project was coded by Funmilayo Fagbemi, and it is
+        <a href="https://github.com/Funmi77/Project-Portfoilo" target="_blank">
+          open-sourced
+        </a>
+      </p>
     </footer>
-   </div>
   </body>
 </html>
